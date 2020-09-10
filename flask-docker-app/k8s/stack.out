@@ -1,0 +1,340 @@
+{
+    "StackResources": [
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "CDKMetadata",
+            "PhysicalResourceId": "148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "ResourceType": "AWS::CDK::Metadata",
+            "Timestamp": "2020-09-10T09:44:17.721Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "CodeCommitRepoCdkStackALBEksBgMyPipeline6DBE4AB5EventRuleF13BEB5E",
+            "PhysicalResourceId": "CdkStackALBEksBg-CodeCommitRepoCdkStackALBEksBgMyP-1YUZIWNYZVLQ",
+            "ResourceType": "AWS::Events::Rule",
+            "Timestamp": "2020-09-10T09:49:01.276Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "CodeCommitRepoDC6A41F9",
+            "PhysicalResourceId": "667d84c0-677c-4a21-9b39-b8d81e573559",
+            "ResourceType": "AWS::CodeCommit::Repository",
+            "Timestamp": "2020-09-10T09:44:18.039Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "CodeCommitRepoOnCommit67116A74",
+            "PhysicalResourceId": "CdkStackALBEksBg-CodeCommitRepoOnCommit67116A74-YORH22Z80JSK",
+            "ResourceType": "AWS::Events::Rule",
+            "Timestamp": "2020-09-10T09:48:15.250Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "EcrRepoBB83A592",
+            "PhysicalResourceId": "ecrrepobb83a592-uct6zqjhaqn1",
+            "ResourceType": "AWS::ECR::Repository",
+            "Timestamp": "2020-09-10T09:44:17.940Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineAED38ECF",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyPipelineAED38ECF-1GLKZJWNBY3NN",
+            "ResourceType": "AWS::CodePipeline::Pipeline",
+            "Timestamp": "2020-09-10T09:47:57.372Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineApproveSwapBGApproveCodePipelineActionRole3538051B",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyPipelineApproveSwapBGApproveCod-1HT68HR5RN433",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.816Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineArtifactsBucket727923DD",
+            "PhysicalResourceId": "cdkstackalbeksbg-mypipelineartifactsbucket727923d-1vnoegnn7o90c",
+            "ResourceType": "AWS::S3::Bucket",
+            "Timestamp": "2020-09-10T09:47:25.959Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineArtifactsBucketEncryptionKey8BF0A7F3",
+            "PhysicalResourceId": "8a19244a-a4d2-4100-98f9-49c800a9a43d",
+            "ResourceType": "AWS::KMS::Key",
+            "Timestamp": "2020-09-10T09:46:45.040Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineArtifactsBucketEncryptionKeyAlias9D4F8C59",
+            "PhysicalResourceId": "alias/codepipeline-cdkstackalbeksbgmypipeline6dbe4ab5",
+            "ResourceType": "AWS::KMS::Alias",
+            "Timestamp": "2020-09-10T09:47:04.145Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineBuildAndDeployCodeBuildCodePipelineActionRoleA9E57E95",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyPipelineBuildAndDeployCodeBuild-1PY7LFAXOW8CH",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.406Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineBuildAndDeployCodeBuildCodePipelineActionRoleDefaultPolicy0DA6281D",
+            "PhysicalResourceId": "CdkSt-MyPi-BBJOTYUGTH6O",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:47:30.102Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineEventsRoleDefaultPolicyF045F033",
+            "PhysicalResourceId": "CdkSt-MyPi-17BERF2YR1MEJ",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:48:19.860Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineEventsRoleFAB99F32",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyPipelineEventsRoleFAB99F32-A0LZMNQ75XAF",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.325Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineRoleC0D47CA4",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyPipelineRoleC0D47CA4-WYLU1FGMET2N",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.351Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineRoleDefaultPolicy34F09EFA",
+            "PhysicalResourceId": "CdkSt-MyPi-PRHASF9MZ59U",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:47:50.531Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineSourceCodeCommitCodePipelineActionRole3B3AD87E",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyPipelineSourceCodeCommitCodePip-Z55ZKHZEM3FS",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.219Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineSourceCodeCommitCodePipelineActionRoleDefaultPolicyEC1DD3CC",
+            "PhysicalResourceId": "CdkSt-MyPi-1FS5P5JHRZ5WE",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:47:49.918Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineSwapBGCodeBuildCodePipelineActionRoleDEF902C3",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyPipelineSwapBGCodeBuildCodePipe-JFB7CKT36GK7",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.523Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyPipelineSwapBGCodeBuildCodePipelineActionRoleDefaultPolicy91F58B9E",
+            "PhysicalResourceId": "CdkSt-MyPi-UB1W2GV7V3MJ",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:47:16.252Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyProject2B52B17CC",
+            "PhysicalResourceId": "CdkStackALBEksBg2",
+            "ResourceType": "AWS::CodeBuild::Project",
+            "Timestamp": "2020-09-10T09:46:53.880Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyProject2Role640CD8C0",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyProject2Role640CD8C0-LKQUMPABZL99",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.273Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyProject2RoleDefaultPolicyF6082200",
+            "PhysicalResourceId": "CdkSt-MyPr-XF0DQ529PJG3",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:48:04.970Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyProject39F7B0AE",
+            "PhysicalResourceId": "CdkStackALBEksBg",
+            "ResourceType": "AWS::CodeBuild::Project",
+            "Timestamp": "2020-09-10T09:47:07.612Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyProjectRole9BBE5233",
+            "PhysicalResourceId": "CdkStackALBEksBg-MyProjectRole9BBE5233-HLYLMZW2T9OJ",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:37.160Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "MyProjectRoleDefaultPolicyB19B7C29",
+            "PhysicalResourceId": "CdkSt-MyPr-1MIKRQVBBY5YV",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:48:05.795Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "OnCommitEventEventsRole4B7E4A42",
+            "PhysicalResourceId": "CdkStackALBEksBg-OnCommitEventEventsRole4B7E4A42-JGWF6SU9ZHWX",
+            "ResourceType": "AWS::IAM::Role",
+            "Timestamp": "2020-09-10T09:44:36.632Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        },
+        {
+            "StackName": "CdkStackALBEksBg",
+            "StackId": "arn:aws:cloudformation:ap-southeast-1:995639774625:stack/CdkStackALBEksBg/148bd7e0-f34a-11ea-9712-025abbc9e760",
+            "LogicalResourceId": "OnCommitEventEventsRoleDefaultPolicy075E414C",
+            "PhysicalResourceId": "CdkSt-OnCo-1EOM615K1GNPC",
+            "ResourceType": "AWS::IAM::Policy",
+            "Timestamp": "2020-09-10T09:47:30.649Z",
+            "ResourceStatus": "CREATE_COMPLETE",
+            "DriftInformation": {
+                "StackResourceDriftStatus": "NOT_CHECKED"
+            }
+        }
+    ]
+}
